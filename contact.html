@@ -1,0 +1,105 @@
+<html>
+<head>
+<style>
+body{
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;}
+
+
+
+.container{
+color:brown;
+width:800px;
+height:500px
+padding:12px 20px 24px 24px;;                  
+margin:48px 12px;;                 
+background:lightblue;
+border-radius:4px;
+}
+label{
+font-family:calibri;
+font-size:18px;
+margin-left:12px;
+}
+input[type=text],input[type=email],input[type=tel],textarea{
+width:20%;
+padding:5px;
+border:1px solid green;
+border-radius:4px;
+box-sizing:border-box;
+margin-top:2px;
+margin-bottom:16px;
+resize:vertical;
+}
+h1{
+color:brown;
+font-family:algerian;
+}
+button{
+color:brown;}
+
+
+p{
+font-size:18px;
+align-items:center;
+color:brown;
+}
+
+	.column{
+	float:left;
+	text-align:center;
+	width:25%;
+	padding:35px;
+	color:brown;
+}
+button{
+font-size:15px;
+border-radius:6px;
+background:white;
+color:brown;
+-webkit-text-stroke:0.1px black;
+}
+</style>
+</head>
+<br>
+<body bgcolor="white">
+<h1><u>CONTACT&nbsp; US</u></h1>
+
+<div class="container">
+<form action="#" name="contact_from">
+
+<center><label>YOUR NAME</label>&nbsp;&nbsp;<br>
+<input type="text" name="uname" required/><br><br>
+
+<label>YOUR EMAIL</label>&nbsp;&nbsp;<br>
+<input type="email" name="ename" required/><br><br>
+
+<label>PHONE NO</LABEL>&nbsp;&nbsp;<br>
+<input type="number" id="phone" name="phone"  maxlength="10" required/><br><br>
+
+<label>MESSAGE</LABEL><br>
+<textarea name="TextMessage" rows="2" cols="15" required/>
+</textarea>
+<div class="center">
+<!--<button class="submit" onclick="submitResponse()">SEND MESSAGE</button>
+<script>
+function submitResponse()
+{
+alert("Your response has been submitted");
+}
+</script>-->
+<button type="submit" formaction="message1.html">SEND MESSAGE</BUTTON>
+</div>
+</form>
+</div>
+
+
+<p>POSTAL ADDRESS:Candolim,Goa <br>PHONE:4925687917<br>
+EMAIL:pearlseaworld@gamil.com</p>
+<form>
+<button type="submit" formaction="firstpage.html">Back</button><br>
+</form>
+
+</body></html>
